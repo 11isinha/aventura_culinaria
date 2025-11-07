@@ -1,4 +1,6 @@
-
+@import url('https://fonts.cdnfonts.com/css/christmas-smiling');
+@import url('https://fonts.cdnfonts.com/css/amoitar');
+@import url('https://fonts.cdnfonts.com/css/manjari-2');
 body {
     background-color: #fffaf0; /* tom suave de creme */
     color: #333;
@@ -6,57 +8,65 @@ body {
     padding: 20px;
 }
 
-/* Cabeçalhos */
 h1 {
-    color: #abe91b; /* tom laranja forte para destaque */
+    color: #7fb307; /* tom laranja forte para destaque */
     text-align: center;
     margin-bottom: 20px;
-    font-size: 3rem;
+    font-size: 4.2rem;
+    font-family: 'Christmas Smiling', sans-serif;
+                                                
 }
 
 h2 {
-    color: #2ad300;
+    color: #d30046;
     margin-top: 20px;
     margin-bottom: 15px;
-    font-size: 1.7rem;
+    font-size: 2.2rem;
+    font-family: 'Christmas Smiling', sans-serif;
+                                                
 }
 
 h3 {
     color: #52cc0b;
     margin-top: 15px;
     margin-bottom: 10px;
-    font-size: 1.7rem;
+    font-size: 2rem;
+   font-family: 'Christmas Smiling', sans-serif;
+                                                
 }
 
-/* Parágrafos */
 p {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     margin-bottom: 15px;
+    font-family: 'Manjari', sans-serif;
+                                                
 }
 
-/* Citação */
 blockquote {
     font-style: italic;
-    color: #555;
-    border-left: 4px solid #059600;
+    color: #d30046;
+    background-color: #c9f0a4;
+    border-left: 4px solid #39c20f;
     padding-left: 10px;
     margin: 15px 0;
     font-size: 1.2rem;
+    font-family: 'Amoitar', sans-serif;
+                                                
 }
 
-/* Listas */
 ul, ol {
     margin-left: 20px;
     margin-bottom: 15px;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    font-family: 'Manjari', sans-serif;
 }
 
 li {
     margin-bottom: 5px;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    font-family: 'Manjari', sans-serif;
 }
 
-/* Imagem */
 img {
     display: block;
     max-width: 100%;
@@ -66,19 +76,22 @@ img {
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
-/* Tabela */
 table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
     margin-bottom: 30px;
+    font-family: 'Manjari', sans-serif;
 }
 
 caption {
     caption-side: top;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     margin-bottom: 10px;
+    font-family: 'Christmas Smiling', sans-serif;
+    color: #d30046;
+                                            
 }
 
 th, td {
@@ -90,21 +103,23 @@ th, td {
 }
 
 th {
-    background-color: #a3ffb2;
+    background-color: #c9f0a4;
+    
+
 }
 
 td {
-    background-color: #e6ffea;
+       background-color: #e4ffc9;
+
 }
 
-/* Destaques */
 strong {
     color: #236413;
 }
 
 em {
     font-style: italic;
-    color: #0cb414;
+    color: #d30046;
     font-size: 1.2rem;
 }
 
